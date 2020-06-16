@@ -9,7 +9,7 @@ const CardContent = (props) => {
   return (
     <div className="card">
       <ImageBlock />
-      <InfoBlock props={props} />
+      <InfoBlock Info={props.data} />
     </div>
   );
 };

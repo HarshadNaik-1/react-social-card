@@ -1,7 +1,7 @@
 import React from "react";
 
 const infoBlock = (props) => {
-  const { name, email, job } = props;
+  const { name, email, job } = props.Info;
   console.log(props);
   return (
     <div className="info">

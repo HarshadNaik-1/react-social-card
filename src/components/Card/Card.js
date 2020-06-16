@@ -5,7 +5,7 @@ function Card(props) {
   console.log(props);
   return (
     <div>
-      <CardContent props={props} />
+      <CardContent data={props} />
     </div>
   );
 }
